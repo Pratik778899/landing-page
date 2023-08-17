@@ -1,0 +1,273 @@
+@font-face {
+    font-family: master;
+    src: url(./PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* #page1 {
+    background-color: #F7F7F7;
+} */
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: master;
+    padding: 10px;
+    word-spacing: 3px;
+}
+
+#nav-logo img {
+    height: 30px;
+}
+
+#nav-a a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+#nav-a :nth-child(2) {
+    background-color: #ffd124;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#hero {
+    font-family: master;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#hero-l h1 {
+    width: 50%;
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+#hero-l p {
+    width: 75%;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#hero-l span {
+    font-weight: normal;
+}
+
+
+#build {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e1dfdf;
+    width: 70%;
+    padding: 8px 5px;
+    border-radius: 10px;
+}
+
+#bl h5 {
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#br img {
+    height: 30px;
+    margin-right: 10px;
+    mix-blend-mode: multiply;
+    filter: contrast(1.1);
+    filter: saturate(1.1);
+}
+
+#hero-r img {
+    height: 450px;
+    mix-blend-mode: multiply;
+    filter: contrast(1.1);
+}
+
+#float-main {
+    background-color: #FFFFFF;
+    width: 81%;
+    margin-left: 10%;
+    padding: 30px 30px;
+    font-family: master;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.45);
+}
+
+#float1 {
+    display: flex;
+    gap: 30px;
+}
+
+#float1 h5{
+    margin-left: 300px;
+}
+
+#float2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#name input,
+#number input,
+#email input{
+    padding: 8px 30px; 
+}
+
+#brochure {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    margin-right: 12px;
+    border-radius: 10px;
+}
+
+#brochure h4{
+    padding-left: 10px;
+}
+
+#main-p2{
+    background-color: #f5e08e;
+    height: 47rem;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: -50px;
+    font-family: master;
+}
+
+#p2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    gap: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+}
+
+#p2l h1{
+    width: 70%;
+    font-size: 45px;
+}
+
+#p2r{
+    background-color: #FFFFFF;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+#p2r a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.card{
+    background-color: #FFFFFF;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 35px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.card img{
+    height: 60px;
+    margin-bottom: 15px;
+    mix-blend-mode: multiply;
+    filter: contrast(1.1);
+}
+
+.card h3{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card:nth-child(1){
+margin-left: 70px;
+}
+.card:nth-child(2){
+    padding: 25px 60px;
+}
+.card:nth-child(3){
+    padding: -25px;
+}
+.card:nth-child(4){
+    padding: 25px 50px;
+}
+
+
+.card1{
+    background-color: #FFFFFF;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 35px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.card1 img{
+    height: 60px;
+    margin-bottom: 15px;
+    mix-blend-mode: multiply;
+    filter: contrast(1.1);
+}
+
+.card1 h3{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card1:nth-child(1){
+margin-left: 70px;
+padding: 25px 100px;
+}
+.card1:nth-child(2){
+    padding: 25px 40px;
+}
+.card1:nth-child(3){
+    padding: 25px 115px;
+}
+.card1:nth-child(4){
+    padding: 25px 35px;
+}
