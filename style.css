@@ -161,6 +161,9 @@ body {
 #name input,
 #number input,
 #email input{
+    font-family: master;
+    font-weight: 600;
+    letter-spacing: 2px;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 20px;
