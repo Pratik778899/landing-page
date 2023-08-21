@@ -263,11 +263,14 @@ body {
     word-spacing: 2px;
 }
 
+.card-master{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 .card{
     background-color: #FFFFFF;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
     padding: 25px 35px;
     margin-left: 10px;
     border-radius: 10px;
@@ -289,56 +292,3 @@ body {
     margin: 0 auto;
 }
 
-.card:nth-child(1){
-margin-left: 90px;
-}
-.card:nth-child(2){
-    padding: 25px 60px;
-}
-.card:nth-child(3){
-    padding: -25px;
-}
-.card:nth-child(4){
-    padding: 25px 50px;
-}
-
-
-.card1{
-    background-color: #FFFFFF;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-    padding: 25px 35px;
-    margin-left: 10px;
-    border-radius: 10px;
-    font-size: 15px;
-    width: 20rem;
-    margin-bottom: 20px;
-    
-}
-
-.card1 img{
-    height: 60px;
-    margin-bottom: 15px;
-    mix-blend-mode: multiply;
-    filter: contrast(1.1);
-}
-
-.card1 h3{
-    width: 60%;
-    margin: 0 auto;
-}
-
-.card1:nth-child(1){
-margin-left: 90px;
-padding: 25px 100px;
-}
-.card1:nth-child(2){
-    padding: 25px 40px;
-}
-.card1:nth-child(3){
-    padding: 25px 115px;
-}
-.card1:nth-child(4){
-    padding: 25px 35px;
-}
